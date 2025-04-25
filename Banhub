@@ -3,10 +3,10 @@ local bannedHWID = "62A5E255-3C72-47D9-BD8B-7B774C3A8DFE"
 
 if HWID == bannedHWID then
     print("Lave BannHub send to server!")
-    wait(6)
+    wait(2)
     game.Players.LocalPlayer:Kick("You are permanently banned from Lave script hubs. [If this was a mistake, please let us know your Discord username: Lave_01]")
 else
     print("Lave BannHub send to server!")
-    wait(6)  
+    wait(2)  
     print("You are not banned, have fun!") 
 end
