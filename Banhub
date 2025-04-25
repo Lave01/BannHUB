@@ -2,9 +2,9 @@ local HWID = game:GetService("RbxAnalyticsService"):GetClientId()
 local bannedHWID = "F38F483F-8C60-4C23-95CE-3047446AB621"
 
 if HWID == bannedHWID then
-    game.Players.LocalPlayer:Kick("You are permanently locked out of Lave script hubs [If this was a mistake please let us know Discord user name : Lave_01]")
+    game.Players.LocalPlayer:Kick("You are permanently Banned from Lave script hubs [If this was a mistake please let us know Discord user name : Lave_01]")
 else
-    print("Lave Anti cheat send to server . . .")
-    wait("5")
+    print("Lave BannHub send to server !")
+wait("6")
     ptint("you are not banned have fun")
 end
