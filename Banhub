@@ -1,5 +1,5 @@
 local HWID = game:GetService("RbxAnalyticsService"):GetClientId()
-local bannedHWID = "966ECD6B-3852-4217-80E2-E04B5F012DD3"
+local bannedHWID = "00000000000000000000"
 
 if HWID == bannedHWID then
     print("Lave BannHub send to server!")
